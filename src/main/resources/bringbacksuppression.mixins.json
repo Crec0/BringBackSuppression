@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.crec.bringbacksuppression.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftServerMixin",
+    "PacketUtilsMixin",
+    "ServerLevelMixin",
+    "CollectingNeighborUpdaterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

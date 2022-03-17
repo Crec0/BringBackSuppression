@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "bringbacksuppression",
+  "version": "${version}",
+  "name": "BringBackSuppression",
+  "description": "",
+  "accessWidener": "bringbacksuppression.accesswidener",
+  "authors": [ "Crec0"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/a/icon.png",
+  "environment": "*",
+  "mixins": [
+    "bringbacksuppression.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "*"
+  }
+}
