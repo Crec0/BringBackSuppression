@@ -16,3 +16,8 @@ This exception is later caught in the main server loop, therefore the game will 
 If the threshold is set to -1, the mod will set the threshold value at 8000.
 
 For an ideal setup, set the threshold to be 8000 to 10000. This will be roughly equivalent to how many updates it used to send in earlier versions.
+
+### Why to use this mod?
+
+Dont. This mod is just poc workaround and done in a hacky way. Although there are game breaking issues, this mod just 
+me to modify the server properties and make it work instead of relying on jvm args and guessing.
